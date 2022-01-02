@@ -1,0 +1,31 @@
+C#
+
+C# é uma linguagem, orientada a objeto e fortemente tipada;
+A sintaxe é similar ao Java;
+Suporta os conceitos de encapsulamento, herança e polimorfismo;
+
+
+Tipos e Variáveis
+
+Tipos de Valor, as variáveis tem sua propria cópia dos valores e não é possivel que as operações afetem outra variável.
+
+Numéricos: sbyte, short, int, long, byte, ushort, uint, ulong
+
+Caracter: char
+
+pontos flutuantes: float, double, decimal 
+
+booleano: bool
+
+
+outros tipos: enum, struct e tipos nullable
+
+Tipos de referência
+
+É possível que duas variáveis façam referência ao mesmo objeto e, portanto, que operações em uma variável o objeto referenciado pela outra variável. 
+
+Tipos classe: class, object, string
+
+tipos Arrays: int[], int[,], etc...
+
+interface, delegate
