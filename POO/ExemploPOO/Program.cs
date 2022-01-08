@@ -2,7 +2,8 @@
 using ExemploPOO.Models;
 using static ExemploPOO.Models.Pessoa;
 using static ExemploPOO.Models.Aluno;
-
+using ExemploPOO.Interfaces;
+using ExemploPOO.Helper;
 
 namespace ExemploPOO
 
@@ -12,8 +13,17 @@ namespace ExemploPOO
         static void Main(string[] args)
         {
 
-            Computador c = new Computador();
-            System.Console.WriteLine(c.ToString());
+            var caminho = "C:\\TrabalhandoComArquivos";
+
+            FileHelper helper = new FileHelper();
+            //helper.ListarDiretorios(caminho);
+            helper.ListarArquivosDiretorios(caminho);
+
+            //ICalculadora calc = new Calculadora();
+            //System.Console.WriteLine(calc.Somar(10, 20));
+
+            //Computador c = new Computador();
+            //System.Console.WriteLine(c.ToString());
 
             //Corrente c = new Corrente();
             //c.Creditar(100);
